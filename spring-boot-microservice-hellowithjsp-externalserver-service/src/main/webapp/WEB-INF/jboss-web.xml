@@ -1,3 +1,4 @@
 <jboss-web>
     <context-root>iums/v1</context-root>
+    <disable-cross-context>false</disable-cross-context>
 </jboss-web>

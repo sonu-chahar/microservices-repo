@@ -8,7 +8,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class HelloController {
 
-  @GetMapping("/helloWithJsp")
+  @GetMapping("/helloWithJsp1")
   public ModelAndView showHelloWithJsp(ModelMap model){
     model.addAttribute("message21","message from hellowithjsp-service");
     return new ModelAndView("helloWithJsp",model);
